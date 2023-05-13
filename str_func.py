@@ -7,6 +7,7 @@ def string_title(text):
     """Делает заглавными первые буквы каждого слова в строке"""
     lst = text.split(" ")
     title_text = ""
+    # Цикл по словам
     for word in lst:
         title_text += word.title() + " "
     return title_text
